@@ -1,0 +1,24 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 160px 160px 160px;
+    padding: 70px 70px 70px 24px;
+    background-color: #f5cf06;
+}
+
+header{
+   background-color: rgb(30, 41, 102);
+}
+main{
+    background-color: yellowgreen;
+}
+footer{
+    background-color: tomato;
+}
